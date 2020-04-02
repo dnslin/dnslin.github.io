@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>腾讯自媒体我来了</title>
+      <link href="/2020/04/02/teng-xun-zi-mei-ti-wo-lai-liao/"/>
+      <url>/2020/04/02/teng-xun-zi-mei-ti-wo-lai-liao/</url>
+      
+        <content type="html"><![CDATA[<h2 id="腾讯云自媒体分享计划"><a href="#腾讯云自媒体分享计划" class="headerlink" title="腾讯云自媒体分享计划"></a><a href="https://www.qcgzxw.cn/tag/腾讯云" target="_blank" rel="noopener">腾讯云</a><a href="https://www.qcgzxw.cn/tag/自媒体" target="_blank" rel="noopener">自媒体</a>分享计划</h2><p>“<a href="https://www.qcgzxw.cn/tag/腾讯云" target="_blank" rel="noopener">腾讯云</a><a href="https://www.qcgzxw.cn/tag/自媒体" target="_blank" rel="noopener">自媒体</a>计划”是由<a href="https://www.qcgzxw.cn/tag/腾讯云" target="_blank" rel="noopener">腾讯云</a>发起的为期一年的为广大自媒体扶持的计划，对于有 20 篇以上符合投稿要求原创技术文章的博主或微信公众号，提供各大技术社区及平台百万级流量支持、技术书籍、腾讯云周边礼品、线下技术沙龙及大会的门票、腾讯云新品内测试用体验、与开源项目大牛零距离接触、社区成长值激励、<a href="https://cloud.tencent.com/product/cvm?from=10680" target="_blank" rel="noopener">云服务器</a> <a href="https://cloud.tencent.com/product/cvm?from=10680" target="_blank" rel="noopener">CVM</a> 代金券（有效期为3个月，使用条件：限新购、续费，适用付费类型：预付费）。</p><h2 id="扶持奖励"><a href="#扶持奖励" class="headerlink" title="扶持奖励"></a>扶持奖励</h2><p>提供各大技术社区及平台百万级流量支持、技术书籍、腾讯云周边礼品、线下技术沙龙及大会的门票、腾讯云新品内测试用体验、与开源项目大牛零距离接触、社区成长值激励、云服务器 CVM 代金券（有效期为3个月，使用条件：限新购、续费，适用付费类型：预付费）。</p><h2 id="计划流程"><a href="#计划流程" class="headerlink" title="计划流程"></a>计划流程</h2><p>注册/登录腾讯云账号-申请分享计划-审核通过后可获取分享资源包。我们会把你原有博客或微信公众号的文章迁移至腾讯云专栏，后期会定期更新新增文章至腾讯云专栏。</p><p>我的博客即将同步至腾讯云+社区，邀请大家一同入驻：<a href="https://cloud.tencent.com/developer/support-plan?invite_code=1p8m46ea0t4nh" target="_blank" rel="noopener">https://cloud.tencent.com/developer/support-plan?invite_code=1p8m46ea0t4nh</a></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 知识分享 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 社区 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2020/03/31/hello-world/"/>
       <url>/2020/03/31/hello-world/</url>
