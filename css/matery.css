@@ -1,36 +1,31 @@
 /*全局基础样式*/
-
-
 /*小屏幕下(手机类)的样式*/
-
 @media only screen and (max-width: 601px) {
     .container {
         width: 95%;
     }
 }
 
-
 /*中等屏幕下(平板类)的样式*/
-
 @media only screen and (min-width: 600px) and (max-width: 992px) {
     .container {
         width: 90%;
     }
 }
 
-
 /*大屏幕下(桌面类)的样式*/
-
 @media only screen and (min-width: 993px) {
     .container {
         width: 85%;
         max-width: 1125px;
     }
+
     .head-container {
         position: absolute;
         padding: 0px 30px;
         width: 100%;
     }
+
     .post-container {
         width: 90%;
         margin: 0 auto;
@@ -97,7 +92,7 @@ hr {
 }
 
 blockquote {
-    border-left: 5px solid #9a9ea3;
+    border-left: 5px solid #42b983;
     padding: 1rem 0.8rem 0.2rem 0.8rem;
     color: #666;
     background-color: rgba(66, 185, 131, .1);
@@ -116,7 +111,7 @@ code {
     padding: 1px 5px;
     font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace;
     font-size: 0.91rem;
-    color: #9a9ea3;
+    color: #e96900;
     background-color: #f8f8f8;
     border-radius: 2px;
 }
@@ -174,11 +169,11 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #9a9ea3 0%, #9a9ea3 100%);
+    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
 }
 
 .text-color {
-    color: #9a9ea3 !important;
+    color: #0f9d58 !important;
 }
 
 .white-color {
@@ -190,7 +185,7 @@ mark {
     position: fixed;
     bottom: 0;
     z-index: 300;
-    background: linear-gradient(to right, #9a9ea3 0%, #9a9ea3 100%);
+    background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
     opacity: 0.8;
 }
 
@@ -315,8 +310,8 @@ header .side-nav .social-link {
 }
 
 .cover-btns a:hover {
-    border: 1px solid #9a9ea3;
-    background-color: #9a9ea3;
+    border: 1px solid #f44336;
+    background-color: #f44336;
     box-shadow: 0 14px 26px -12px rgba(233, 30, 99, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(233, 30, 99, 0.2);
 }
 
@@ -352,9 +347,7 @@ header .go-back i {
     line-height: 56px;
 }
 
-
 /* 背景图效果. */
-
 .bg-cover {
     position: relative;
     display: flex;
@@ -381,8 +374,7 @@ header .go-back i {
     animation: rainbow 60s infinite;
 }
 
-.bg-cover:before,
-.bg-cover:after {
+.bg-cover:before, .bg-cover:after {
     position: absolute;
     z-index: 1;
     width: 100%;
@@ -414,6 +406,86 @@ header .go-back i {
 
 .bg-cover .post-title {
     font-size: 3rem;
+}
+
+@-webkit-keyframes rainbow {
+    0%,
+    100% {
+        background: rgba(156, 39, 176, 0.75);
+        background: linear-gradient(45deg, rgba(156, 39, 176, 0.75) 0%, rgba(156, 39, 176, 0.65) 100%);
+        background: -moz-linear-gradient(135deg, rgba(156, 39, 176, 0.75) 0%, rgba(156, 39, 176, 0.65) 100%);
+        background: -webkit-linear-gradient(135deg, rgba(156, 39, 176, 0.75) 0%, rgba(156, 39, 176, 0.65) 100%);
+    }
+    16% {
+        background: rgba(132, 13, 121, 0.75);
+        background: linear-gradient(45deg, rgba(132, 13, 121, 0.75) 0%, rgba(132, 13, 121, 0.65) 100%);
+        background: -moz-linear-gradient(135deg, rgba(132, 13, 121, 0.75) 0%, rgba(132, 13, 121, 0.65) 100%);
+        background: -webkit-linear-gradient(135deg, rgba(132, 13, 121, 0.75) 0%, rgba(132, 13, 121, 0.65) 100%);
+    }
+    32% {
+        background: rgba(239, 83, 80, 0.75);
+        background: linear-gradient(45deg, rgba(239, 83, 80, 0.75) 0%, rgba(239, 83, 80, 0.65) 100%);
+        background: -moz-linear-gradient(135deg, rgba(239, 83, 80, 0.75) 0%, rgba(239, 83, 80, 0.65) 100%);
+        background: -webkit-linear-gradient(135deg, rgba(239, 83, 80, 0.75) 0%, rgba(239, 83, 80, 0.65) 100%);
+    }
+    48% {
+        background: rgba(255, 87, 34, 0.75);
+        background: linear-gradient(45deg, rgba(255, 87, 34, 0.75) 0%, rgba(255, 87, 34, 0.65) 100%);
+        background: -moz-linear-gradient(135deg, rgba(255, 87, 34, 0.75) 0%, rgba(255, 87, 34, 0.65) 100%);
+        background: -webkit-linear-gradient(135deg, rgba(255, 87, 34, 0.75) 0%, rgba(255, 87, 34, 0.65) 100%);
+    }
+    64% {
+        background: rgba(255, 160, 0, 0.75);
+        background: linear-gradient(45deg, rgba(255, 160, 0, 0.75) 0%, rgba(255, 160, 0, 0.65) 100%);
+        background: -moz-linear-gradient(135deg, rgba(255, 160, 0, 0.75) 0%, rgba(255, 112, 66, 0.65) 100%);
+        background: -webkit-linear-gradient(135deg, rgba(255, 160, 0, 0.75) 0%, rgba(255, 160, 0, 0.65) 100%);
+    }
+    80% {
+        background: rgba(233, 30, 99, 0.75);
+        background: linear-gradient(45deg, rgba(233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
+        background: -moz-linear-gradient(135deg, rgba(233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
+        background: -webkit-linear-gradient(135deg, rgba(2233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
+    }
+}
+
+@keyframes rainbow {
+    0%,
+    100% {
+        background: rgba(156, 39, 176, 0.75);
+        background: linear-gradient(45deg, rgba(156, 39, 176, 0.75) 0%, rgba(156, 39, 176, 0.65) 100%);
+        background: -moz-linear-gradient(135deg, rgba(156, 39, 176, 0.75) 0%, rgba(156, 39, 176, 0.65) 100%);
+        background: -webkit-linear-gradient(135deg, rgba(156, 39, 176, 0.75) 0%, rgba(156, 39, 176, 0.65) 100%);
+    }
+    16% {
+        background: rgba(132, 13, 121, 0.75);
+        background: linear-gradient(45deg, rgba(132, 13, 121, 0.75) 0%, rgba(132, 13, 121, 0.65) 100%);
+        background: -moz-linear-gradient(135deg, rgba(132, 13, 121, 0.75) 0%, rgba(132, 13, 121, 0.65) 100%);
+        background: -webkit-linear-gradient(135deg, rgba(132, 13, 121, 0.75) 0%, rgba(132, 13, 121, 0.65) 100%);
+    }
+    32% {
+        background: rgba(239, 83, 80, 0.75);
+        background: linear-gradient(45deg, rgba(239, 83, 80, 0.75) 0%, rgba(239, 83, 80, 0.65) 100%);
+        background: -moz-linear-gradient(135deg, rgba(239, 83, 80, 0.75) 0%, rgba(239, 83, 80, 0.65) 100%);
+        background: -webkit-linear-gradient(135deg, rgba(239, 83, 80, 0.75) 0%, rgba(239, 83, 80, 0.65) 100%);
+    }
+    48% {
+        background: rgba(255, 87, 34, 0.75);
+        background: linear-gradient(45deg, rgba(255, 87, 34, 0.75) 0%, rgba(255, 87, 34, 0.65) 100%);
+        background: -moz-linear-gradient(135deg, rgba(255, 87, 34, 0.75) 0%, rgba(255, 87, 34, 0.65) 100%);
+        background: -webkit-linear-gradient(135deg, rgba(255, 87, 34, 0.75) 0%, rgba(255, 87, 34, 0.65) 100%);
+    }
+    64% {
+        background: rgba(255, 160, 0, 0.75);
+        background: linear-gradient(45deg, rgba(255, 160, 0, 0.75) 0%, rgba(255, 160, 0, 0.65) 100%);
+        background: -moz-linear-gradient(135deg, rgba(255, 160, 0, 0.75) 0%, rgba(255, 112, 66, 0.65) 100%);
+        background: -webkit-linear-gradient(135deg, rgba(255, 160, 0, 0.75) 0%, rgba(255, 160, 0, 0.65) 100%);
+    }
+    80% {
+        background: rgba(233, 30, 99, 0.75);
+        background: linear-gradient(45deg, rgba(233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
+        background: -moz-linear-gradient(135deg, rgba(233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
+        background: -webkit-linear-gradient(135deg, rgba(2233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
+    }
 }
 
 .carousel .indicators {
@@ -484,9 +556,7 @@ header .go-back i {
     }
 }
 
-
 /*中等屏幕下(平板类)的样式*/
-
 @media only screen and (min-width: 600px) and (max-width: 992px) {
     .index-card .card .card-content {
         padding: 20px 20px;
@@ -602,9 +672,7 @@ header .go-back i {
     margin-top: -10px;
 }
 
-
 /*文章列表卡片各样式*/
-
 #articles {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -618,7 +686,7 @@ article a {
 
 article a:hover {
     font-weight: bold;
-    color: #9a9ea3;
+    color: #42b983;
     text-decoration: underline;
 }
 
@@ -743,16 +811,12 @@ article .article-tags .chip {
     color: #999 !important;
 }
 
-
 /*文章详情样式*/
-
 #artDetail {
     margin-top: -60px;
 }
 
-
 /* 修改小屏幕下文章详情table样式. */
-
 @media only screen and (max-width: 550px) {
     #articleContent table {
         table-layout: fixed;
@@ -767,7 +831,9 @@ article .article-tags .chip {
 }
 
 #artDetail .card {
-    box-shadow: 0 10px 35px 2px rgba(0, 0, 0, .15), 0 5px 15px rgba(0, 0, 0, .07), 0 2px 5px -5px rgba(0, 0, 0, .1) !important;
+    box-shadow: 0 10px 35px 2px rgba(0, 0, 0, .15),
+    0 5px 15px rgba(0, 0, 0, .07),
+    0 2px 5px -5px rgba(0, 0, 0, .1) !important;
 }
 
 #artDetail .tag-cate {
@@ -801,12 +867,12 @@ article .article-tags .chip {
 
 #artDetail .post-cate {
     float: right;
-    color: #9a9ea3;
+    color: #42b983;
 }
 
 #artDetail .post-cate a {
     padding-right: 5px;
-    color: #9a9ea3;
+    color: #42b983;
     font-weight: 500;
 }
 
@@ -825,7 +891,7 @@ article .article-tags .chip {
 
 #artDetail .post-info .post-category:hover {
     font-weight: bold;
-    color: #9a9ea3;
+    color: #42b983;
     text-decoration: underline;
 }
 
@@ -857,6 +923,7 @@ article .article-tags .chip {
     #artDetail .article-card-content {
         padding: 0 30px 20px 32px;
     }
+
     #artDetail .article-info {
         padding: 15px 20px 0 28px;
         margin-bottom: -5px;
@@ -881,7 +948,7 @@ article .article-tags .chip {
 
 #artDetail .reprint a {
     font-size: 1.05rem;
-    color: #9a9ea3;
+    color: #42b983;
     font-weight: 500;
 }
 
@@ -897,7 +964,7 @@ article .article-tags .chip {
 
 #articleContent a {
     padding: 0 2px;
-    color: #9a9ea3;
+    color: #42b983;
     font-weight: 500;
     text-decoration: underline;
     word-wrap: break-word;
@@ -942,15 +1009,12 @@ article .article-tags .chip {
     list-style-type: circle;
 }
 
-#articleContent table,
-th,
-td {
+#articleContent table, th, td {
     padding: 12px 13px;
     border: 1px solid #dfe2e5;
 }
 
-table tr:nth-child(2n),
-thead {
+table tr:nth-child(2n), thead {
     background-color: #fafafa;
 }
 
@@ -963,8 +1027,7 @@ thead {
     min-width: 80px;
 }
 
-#articleContent [type="checkbox"]:not(:checked),
-[type="checkbox"]:checked {
+#articleContent [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
     position: inherit;
     margin-left: -1.3rem;
     margin-right: 0.4rem;
@@ -1043,16 +1106,14 @@ thead {
 }
 
 .chip-default .tag-length {
-    color: #9a9ea3;
+    color: #e91e63;
 }
 
 .chip-active .tag-length {
     color: #fff;
 }
 
-
 /* archive page. */
-
 #cd-timeline .year {
     position: relative;
     width: 80px;
@@ -1075,7 +1136,7 @@ thead {
     height: 60px;
     margin: 10px 0 30px -10px;
     padding: 14px 16px;
-    background-color: #9a9ea3;
+    background-color: #ef6c00;
     color: #fff;
     font-size: 1.7rem;
     font-weight: 600;
@@ -1088,7 +1149,7 @@ thead {
 #cd-timeline .day {
     position: relative;
     padding: 8px 10px;
-    background-color: #9a9ea3;
+    background-color: #ffa726;
     color: #fff;
     font-size: 1.2rem;
     font-weight: 500;
@@ -1118,14 +1179,17 @@ thead {
         margin-top: 2rem;
         margin-bottom: 2rem;
     }
+
     #cd-timeline::before {
         left: 50%;
         margin-left: -2px;
     }
+
     #cd-timeline .year {
         margin: 10px 0 50px -40px;
         padding: 22px 11px;
     }
+
     #cd-timeline .month {
         margin: 10px 0 30px -30px;
         padding: 14px 16px;
@@ -1155,9 +1219,11 @@ thead {
     .cd-timeline-block {
         margin: 1em 0;
     }
+
     .cd-timeline-block:first-child {
         margin-top: 0;
     }
+
     .cd-timeline-block:last-child {
         margin-bottom: 0;
     }
@@ -1183,9 +1249,11 @@ thead {
         -webkit-transform: translateZ(0);
         -webkit-backface-visibility: hidden;
     }
+
     .cssanimations .cd-timeline-img.is-hidden {
         visibility: hidden;
     }
+
     .cssanimations .cd-timeline-img.bounce-in {
         visibility: visible;
         -webkit-animation: cd-bounce-1 0.6s;
@@ -1230,9 +1298,11 @@ thead {
     .cd-timeline-content h2 {
         font-size: 1.25rem;
     }
+
     .cd-timeline-content p {
         font-size: 1rem;
     }
+
     .cd-timeline-content .cd-read-more,
     .cd-timeline-content .cd-date {
         font-size: 0.875rem;
@@ -1244,29 +1314,37 @@ thead {
         margin-left: 0;
         padding: 0;
         width: 45%;
+
     }
+
     .cd-timeline-content::before {
         top: 24px;
         left: 100%;
     }
+
     .cd-timeline-content .cd-read-more {
         float: left;
     }
+
     .cd-timeline-block:nth-child(even) .cd-timeline-content {
         float: right;
     }
+
     .cd-timeline-block:nth-child(even) .cd-timeline-content::before {
         top: 24px;
         left: auto;
         right: 100%;
-        border-color: #9a9ea3;
+        border-color: #ffa726;
     }
+
     .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-read-more {
         float: right;
     }
+
     .cssanimations .cd-timeline-content.is-hidden {
         visibility: hidden;
     }
+
     .cssanimations .cd-timeline-content.bounce-in {
         visibility: visible;
         -webkit-animation: cd-bounce-2 0.6s;
@@ -1274,7 +1352,6 @@ thead {
         animation: cd-bounce-2 0.6s;
     }
 }
-
 
 /* about page styles. */
 
@@ -1309,7 +1386,7 @@ thead {
 }
 
 .post-statis .statis .count a {
-    color: #9a9ea3;
+    color: #42b983;
 }
 
 .post-statis .statis .name {
@@ -1330,9 +1407,8 @@ thead {
     margin: 0 0.5rem;
     padding: 0;
     color: #fff;
-    border: 1px solid #9a9ea3;
-    background: radial-gradient(#9a9ea3, #9a9ea3);
-    ;
+    border: 1px solid #0f9d58;
+    background: radial-gradient(#4cbf30, #0f9d58);;
     font-size: 0.9rem;
     border-radius: 50%;
     box-shadow: 0 4px 6px rgba(50, 50, 93, .21), 0 2px 3px rgba(0, 0, 0, .1);
@@ -1384,8 +1460,7 @@ thead {
     padding: 3.8rem 1.5rem 0.8rem 1.5rem;
 }
 
-.post-charts,
-.title,
+.post-charts, .title,
 .my-projects .title,
 .my-skills .title,
 .my-gallery .title {
@@ -1508,9 +1583,8 @@ thead {
 
 .other-skills .chip:hover {
     color: #fff;
-    background: linear-gradient(to right, #9a9ea3 0%, #9a9ea3 100%);
-    ;
-    border: 1px solid #9a9ea3;
+    background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);;
+    border: 1px solid #4cbf30;
     box-shadow: 0 5px 5px rgba(0, 0, 0, .25)
 }
 
@@ -1531,9 +1605,7 @@ thead {
     cursor: pointer;
 }
 
-
 /*尾部样式*/
-
 footer {
     padding-bottom: 1px;
 }
@@ -1551,9 +1623,7 @@ footer .copy-right {
     color: #dbdbdb;
 }
 
-
 /*搜索层样式*/
-
 #searchIcon {
     font-size: 1.2rem;
 }
@@ -1593,14 +1663,12 @@ footer .copy-right {
     padding: 1px 5px 1px 4px;
     border-radius: 2px;
     background-color: #f2f2f2;
-    color: #9a9ea3;
+    color: #e96900;
     font-size: .9rem;
     white-space: pre-wrap;
 }
 
-
 /*回到顶部按钮样式*/
-
 .top-scroll {
     display: none;
     position: fixed;
@@ -1644,6 +1712,7 @@ footer .copy-right {
         float: left;
         width: 100%;
     }
+
     .custom-card {
         padding: 0 2px !important;
     }
@@ -1685,9 +1754,7 @@ footer .copy-right {
     overflow: hidden;
 }
 
-
 /* styles for '...' */
-
 .block-with-text {
     /* hide text if it more than N lines  */
     overflow: hidden;
@@ -1704,9 +1771,7 @@ footer .copy-right {
     padding-right: 1em;
 }
 
-
 /* create the ... style */
-
 .block-with-text:before {
     /* points in the end */
     content: '...';
@@ -1717,9 +1782,7 @@ footer .copy-right {
     bottom: 0;
 }
 
-
 /* hide ... if we have text, which is less than or equal to max lines */
-
 .block-with-text:after {
     /* points in the end */
     content: '';
@@ -1738,7 +1801,8 @@ footer .copy-right {
 
 /*二级菜单*/
 
-.nav-menu {}
+.nav-menu {
+}
 
 .nav-menu li .sub-nav {
     position: absolute;
@@ -1837,14 +1901,12 @@ footer .copy-right {
     transition: all .3s;
 }
 
-.m-nav-show,
-.m-nav-item>a:hover {
+.m-nav-show, .m-nav-item > a:hover {
     color: #FFF;
     background: rgba(255, 255, 255, .8);
 }
 
-.m-nav-show>a:before,
-.m-nav-item>a:hover:before {
+.m-nav-show > a:before, .m-nav-item > a:hover:before {
     opacity: 1;
 }
 
